@@ -57,21 +57,24 @@ p {
 }
 
 .contenedor a h1 {
-    color: var(--colorNegro);
-    font-size: 4.1rem;
+    color: var(--colorBlanco);
+    font-size: vw;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
     .contenedor {
         margin: 1rem;
     }
     .contenedor h1 {
         font-size: 2rem;
-        margin-top: 10rem
+        margin-top: 10rem;
     }
     .contenedor a {
         font-size: 1.4rem;
         margin-right: 1rem;
+    }
+    .contenedor a h1 {
+        font-size: 4.6rem;
     }
 }
 
@@ -103,7 +106,7 @@ p {
 }
 
 .cabecero {
-    background-image: url(../img/monitor.jpg);
+    background-image: url(../img/ordenador.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -136,7 +139,6 @@ p {
 .proyectos {
     display: flex;
     justify-content: center;
-    margin: auto;
     /**position: relative;
     opacity: 0.99; **/
 }
@@ -144,12 +146,6 @@ p {
 .margen {
     font-size: 10rem;
     flex: 0 0 calc( 30% - 1rem);
-}
-
-@media (min-width: 768px) {
-    .margen a {
-        font-size: 3rem;
-    }
 }
 
 .text-decoration a {
@@ -160,7 +156,6 @@ p {
 .proyectos p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: var(--colorBlanco);
-    opacity: 1!important;
 }
 
 .icono {
@@ -193,6 +188,12 @@ p {
     font-family: 'Bangers', cursive;
     text-align: center;
     font-size: 3rem;
+}
+
+span {
+    margin: 5rem;
+    font-size: 3rem;
+    color: rgb(96, 157, 248);
 }
 
 
