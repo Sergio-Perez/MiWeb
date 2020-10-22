@@ -10,81 +10,91 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css"> </head>
-<link rel="stylesheet" href="css/normalize.css"> </head>
+    <link rel="stylesheet" href="css/normalize.css"> </head>
 
 </head>
 
-<body class="color">
-    <div class="centrar colorBlanco">
-        <a class="bajar-texto" href="/">Inicio</a>
-        <a class="bajar-texto" href="https://github.com/Sergio-Perez">Github<i class="fa fa-github-square"></i></a>
-        <a class="bajar-texto" href="/proyectos.html">Proyectos Realizados</a>
-        <a class="bajar-texto" href="#">Contactar</a>
-    </div>
+<body>
     <header>
-        <div class="contenedor separar">
-            <a href="/">
-                <div class="fondo">
-                    <img src="../img/logosergio.png" alt=" logotipo ">
-                </div>
-            </a>
-            <!--contenedor-->
+
+        <div class="barra">
+            <nav class=" colorBlanco ">
+                <a class="bajar-texto" href="/">Inicio</a>
+                <a class="bajar-texto color-iconos " href="https://github.com/Sergio-Perez">Github  <span> <i class="fa fa-github-square"></i> </span></a>
+                <a class="bajar-texto" href="/proyectos.html">Proyectos Realizados</a>
+                <a href="mailto:sergioperezalamillo@gmail.com">Contactar</a>
+            </nav>
         </div>
+        <!--barra-->
+
+        <div class="contenedor-imagen clearfix">
+
+            <div class="cabecero-proyecto">
+                <a href="/">
+                    <h1>Sergio Pérez Alamillo </h1>
+                </a>
+                <a href="/">
+                    <img src="../img/logosergio.png" alt=" logotipo ">
+                </a>
+            </div>
+        </div>
+        <!--contenedor-imagen-->
+
     </header>
-    <main class="separar">
-        <article class="video-fruta centrar-texto text-decoration">
-            <a href="http://www.github.com/Sergio-Perez/RFC ">
-                <h2> Reconocedor de Frutas, RFC. </h2>
-            </a>
-            <p>Reconocedor de frutas con Machine Learning. Uso una red neuronal para predecir la fruta mediante una foto por Webcam. La traduzco y nombramos la fruta por via auditiva. Predice 63 frutas diferentes.</p>
-            <div class="video">
-                <video width="768" height="540" controls>
+    <main class="separar ">
+        <div class="contenedor">
+            <article class="video-fruta centrar-texto text-decoration">
+                <a href="http://www.github.com/Sergio-Perez/RFC ">
+                    <h2> Reconocedor de Frutas, RFC. </h2>
+                </a>
+                <p>Reconocedor de frutas con Machine Learning. Uso una red neuronal para predecir la fruta mediante una foto por Webcam. La traduzco y nombramos la fruta por via auditiva. Predice 63 frutas diferentes.</p>
+                <div class="video">
+                    <video width="768" height="540" controls>
                 <source src="/videos/frutas.mp4" type="video/mp4">
                 
               </video>
-            </div>
+                </div>
 
-            <a href="http://www.github.com/Sergio-Perez/data-analysis-pipeline ">
-                <h2>Pipeline</h2>
-            </a>
-            <p>Mediante la Api de Deezer bajamos y limpiamos un dataset que creamos, asi podemos mediante una pepiline buscar datos especificos desde la terminal</p>
-            <img class="tamaño" src="https://previews.123rf.com/images/kentoh/kentoh0810/kentoh081000158/3679758-resumen-de-b%C3%BAsqueda-wallpaper-concepto-de-negocio-presentaci%C3%B3n-de-antecedentes.jpg" alt="Imagen Search">
-
-
-            <a href="http://www.github.com/Sergio-Perez/ProyectoMongo ">
-                <h2>Proyecto MongoDb</h2>
-            </a>
-            <p>Mediante Web Scraping busca la dirección de aeropuertos , starbacks, etc. Además via la Api de Google de geolocalización nos da los puntos cardinales para situarlos en un mapa.</p>
-            <img class="tamaño" src="/img/mapa.jpg" alt="Imagen Mapa">
+                <a href="http://www.github.com/Sergio-Perez/data-analysis-pipeline ">
+                    <h2>Pipeline</h2>
+                </a>
+                <p>Mediante la Api de Deezer bajamos y limpiamos un dataset que creamos, asi podemos mediante una pepiline buscar datos especificos desde la terminal</p>
+                <img class="tamaño" src="https://previews.123rf.com/images/kentoh/kentoh0810/kentoh081000158/3679758-resumen-de-b%C3%BAsqueda-wallpaper-concepto-de-negocio-presentaci%C3%B3n-de-antecedentes.jpg" alt="Imagen Search">
 
 
-            <a href="http://www.github.com/Sergio-Perez/PoyectApi ">
-                <h2>Proyect Api</h2>
-            </a>
-            <p>Creamos una Api que analiza las frases de los usuarios con Nltk</p>
-            <img class="tamaño" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT7uk4TKmVPB6sX9O_QROqorJd6_wWVKlYqOA&usqp=CAU" alt="Imagen API">
+                <a href="http://www.github.com/Sergio-Perez/ProyectoMongo ">
+                    <h2>Proyecto MongoDb</h2>
+                </a>
+                <p>Mediante Web Scraping busca la dirección de aeropuertos , starbacks, etc. Además via la Api de Google de geolocalización nos da los puntos cardinales para situarlos en un mapa.</p>
+                <img class="tamaño" src="/img/mapa.jpg" alt="Imagen Mapa">
 
-            <a href="https://github.com/Sergio-Perez/LibroDjango"></a>
-            <h2>Libro Django</h2>
-            <p>Mediante Django creo una Api y le damos opción a crear una base de datos al usuario y un buscador de dicha base de datos.</p>
-            <img class="tamaño" src="https://wallpaperstock.net/wallpapers/thumbs1/46105.jpg" alt="imagen libro">
 
-            <a href="http://www.github.com/Sergio-Perez/HTML5-CSS3 ">
-                <h2>Web</h2>
-            </a>
-            <p>Usando HTML y CSS creo varias paginas web.</p>
-            <img class="tamaño" src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2014/07/50129-11-mi-web-crearas-tu-propia-pagina-web-facilmente.png?itok=OwyfMi0W" alt="Imagen Web">
-        </article>
+                <a href="http://www.github.com/Sergio-Perez/PoyectApi ">
+                    <h2>Proyect Api</h2>
+                </a>
+                <p>Creamos una Api que analiza las frases de los usuarios con Nltk</p>
+                <img class="tamaño" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT7uk4TKmVPB6sX9O_QROqorJd6_wWVKlYqOA&usqp=CAU" alt="Imagen API">
 
+                <a href="https://github.com/Sergio-Perez/LibroDjango"></a>
+                <h2>Libro Django</h2>
+                <p>Mediante Django creo una Api y le damos opción a crear una base de datos al usuario y un buscador de dicha base de datos.</p>
+                <img class="tamaño" src="https://wallpaperstock.net/wallpapers/thumbs1/46105.jpg" alt="imagen libro">
+
+                <a href="http://www.github.com/Sergio-Perez/HTML5-CSS3 ">
+                    <h2>Web</h2>
+                </a>
+                <p>Usando HTML y CSS creo varias paginas web.</p>
+                <img class="tamaño" src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2014/07/50129-11-mi-web-crearas-tu-propia-pagina-web-facilmente.png?itok=OwyfMi0W" alt="Imagen Web">
+            </article>
+        </div>
     </main>
 
-    <footer class="footer ">
-        <p class="copyright ">
-            <a href="https://www.linkedin.com/in/sergio-perez-alamillo/"><span><i class="fa fa-linkedin"></i> </span></a> Portfolio de Sergio Pérez Alamillo &copy;.
+
+    <footer class="footer copyright">
+        <p>
+            <a href="https://www.linkedin.com/in/sergio-perez-alamillo"><span><img src="//images.ctfassets.net/uvjww2wslrux/17UAduUK9kOQec2i0QWsug/f98e04870e6795409840b3e00a98306b/ALN-Pie-p__gina-LinkedIn.png?fm=png&q=80&w=500" alt="Linkedin"></a></span>
+            Portfolio de Sergio Pérez Alamillo &copy;.
         </p>
-
-
-
     </footer>
 
 

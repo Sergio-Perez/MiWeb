@@ -19,75 +19,99 @@
 
 
 
-<body class="color">
-    <div class="centrar colorBlanco">
-        <a class="bajar-texto" href="/">Inicio</a>
-        <a class="bajar-texto" href="https://github.com/Sergio-Perez">Github<i class="fa fa-github-square"></i></i></a>
-        <a class="bajar-texto" href="/proyectos.html">Proyectos Realizados</a>
-        <a class="bajar-texto" href="#">Contactar</a>
-    </div>
+<body>
+    <header>
 
-    <header class="cabecero">
-        <div class="contenedor">
-            <a href="/">
-                <h1>Sergio Pérez Alamillo </h1>
-                <div class="fondo">
+        <div class="barra">
+            <nav class=" colorBlanco ">
+                <a class="bajar-texto" href="/">Inicio</a>
+                <a class="bajar-texto color-iconos " href="https://github.com/Sergio-Perez">Github  <span> <i class="fa fa-github-square"></i> </span></a>
+                <a class="bajar-texto" href="/proyectos.html">Proyectos Realizados</a>
+                <a class="bajar-texto" href="/contacto.html">Contactar</a>
+                <a href="mailto:sergioperezalamillo@gmail.com">Contactar</a>
+            </nav>
+        </div>
+        <!--barra-->
+
+        <div class="contenedor-imagen clearfix">
+
+            <div class="cabecero">
+                <a href="/">
+                    <h1>Sergio Pérez Alamillo </h1>
+                </a>
+                <a href="/">
                     <img src="../img/logosergio.png" alt=" logotipo ">
-                </div>
-            </a>
-            <!--contenedor-->
+                </a>
+            </div>
         </div>
+        <!--contenedor-imagen-->
+
     </header>
-    <main class="text-decoration">
-
-        <a href="/proyectos.html">
-            <h2>Proyectos</h2>
-        </a>
-
-        <div class="proyectos ">
-            <article class="contenedor-principal margen">
-
-                <a href=" http://www.github.com/Sergio-Perez/RFC ">
-                    <p>Machine Learning</p>
+    <main>
+        <section>
+            <div class="contenedor-proyectos">
+                <a href="/proyectos.html">
+                    <h2>Proyectos</h2>
                 </a>
-
-                <a href="http://www.github.com/Sergio-Perez/data-analysis-pipeline ">
-                    <p>Pipeline</p>
-                </a>
-
-                <a href="http://www.github.com/Sergio-Perez/ProyectoMongo ">
-                    <p>MongoDb</p>
-                </a>
-
-                <a href="http://www.github.com/Sergio-Perez/PoyectApi ">
-                    <p>Proyect Api</p>
-                </a>
-
-                <a href="https://github.com/Sergio-Perez/LibroDjango ">
-                    <p>Libro Django</P>
-                </a>
-
-                <a href="http://www.github.com/Sergio-Perez/HTML5-CSS3 ">
-                    <p>Web</p>
-                </a>
-
-            </article>
-            <img src="../img/certificado.png " alt="Logo Certificado Data Ananitics ">
+                <div class="flex contenedor-estudios">
 
 
 
-        </div>
+                    <img class="certificado" src="../img/certificado.png" alt="Imagen Data Certified">
+                    <div class="proyectos ">
+
+                        <ul>
+
+                            <li>
+                                <a href=" http://www.github.com/Sergio-Perez/RFC ">
+                                    <p>Machine Learning</p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="http://www.github.com/Sergio-Perez/data-analysis-pipeline ">
+                                    <p>Pipeline</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.github.com/Sergio-Perez/ProyectoMongo ">
+                                    <p>MongoDb</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.github.com/Sergio-Perez/PoyectApi ">
+                                    <p>Proyect Api</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/Sergio-Perez/LibroDjango ">
+                                    <p>Libro Django</P>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.github.com/Sergio-Perez/HTML5-CSS3 ">
+                                    <p>Web</p>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
 
 
 
-        <aside>
+                </div>
+
+        </section>
+
+
+        <section>
 
             <h2> Mi aprendizaje</h2>
 
             <div class="contenedor-estudios ">
                 <div class="icono ">
                     <a href="https://www.ironhack.com/es?utm_source=google-sea&utm_medium=cpc&utm_campaign=MAD_app_campus_brand_GA_ES&utm_term=brand&gclid=CjwKCAjwjLD4BRAiEiwAg5NBFmcLIYw1zTShBDUwP1biNsfY8gwAo05rIGuf5519ffbqip7hrOjTVBoCj-cQAvD_BwE
-                "><img src="img/Ironhack-sala.jpg " alt="Logo Ironhack "></a>
+                            "><img src="img/Ironhack-sala.jpg " alt="Logo Ironhack "></a>
                     <p>En Ironhack Madrid cursé el bootcamp de Analista de Datos. Fue un camino duro, ya que fueron 9 semanas de 16 horas diarias de arduo trabajo para poder aprender un lenjuage de programación.</p>
                 </div>
                 <div class="icono ">
@@ -107,15 +131,16 @@
 
 
             </div>
-        </aside>
-
+        </section>
+        </div>
     </main>
 
-    <footer class="footer ">
-        <p class="copyright ">
-            <a href="https://www.linkedin.com/in/sergio-perez-alamillo/"><span><i class="fa fa-linkedin"></i> </span></a> Portfolio de Sergio Pérez Alamillo &copy;.
+    <footer class="footer copyright">
+        <p>
+            <a href="https://www.linkedin.com/in/sergio-perez-alamillo"><span><img src="//images.ctfassets.net/uvjww2wslrux/17UAduUK9kOQec2i0QWsug/f98e04870e6795409840b3e00a98306b/ALN-Pie-p__gina-LinkedIn.png?fm=png&q=80&w=500" alt="Linkedin"></a></span>
+            Portfolio de Sergio Pérez Alamillo &copy;.
         </p>
-
+    </footer>
 
 
 
