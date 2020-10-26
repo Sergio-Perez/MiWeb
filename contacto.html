@@ -23,100 +23,114 @@
     <link rel="stylesheet" href="css/normalize.css">
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <style>
+        body {
+            background-image: url("img/matrix.gif");
+            background-position: center 25%;
+            background-size: cover;
+        }
+    </style>
 </head>
 
 <body>
-    <header>
+    <div lass="fondo-prueba">
+        <div class="dentro">
 
-        <div class="barra">
-            <nav class=" colorBlanco ">
-                <a class="bajar-texto" href="/">Inicio</a>
-                <a class="bajar-texto color-iconos " href="https://github.com/Sergio-Perez">Github  <span> <i class="fab fa-github-square"></i> </span></a>
-                <a class="bajar-texto" href="/proyectos.html">Proyectos Realizados</a>
-                <a class="bajar-texto" href="/contacto.html">Contactar</a>
-            </nav>
-        </div>
-        <!--barra-->
 
-    </header>
-    <div class="wraper cambioColor">
-        <section class="content separar">
-            <div class="container">
-                <div class="row ">
-                    <div class="col-9">
-                        <div class="card card-primary card-outline">
-                            <div class="card-header">
-                                <form action="mailto:sergioperezalamillo@gmail.com" method="post" name="form1" enctype="text/plain">
-                                    <div class="card-body">
-                                        <div class="form-group">
-                                            <label for="nombre">Nombre: </label>
-                                            <input class="form-control" id="nombre" name="nombre" type="text" placeholder="Nombre" />
-                                        </div>
+            <header>
 
-                                        <div class="form-group">
+                <div class="barra">
+                    <nav class=" colorBlanco ">
+                        <a class="bajar-texto" href="/">Inicio</a>
+                        <a class="bajar-texto color-iconos " href="https://github.com/Sergio-Perez">Github  <span> <i class="fab fa-github-square"></i> </span></a>
+                        <a class="bajar-texto" href="/proyectos.html">Proyectos Realizados</a>
+                        <a class="bajar-texto" href="/contacto.html">Contactar</a>
+                    </nav>
+                </div>
+                <!--barra-->
 
-                                            <label for="email">Email: </label>
-                                            <input class="form-control" id="email" name="email" type="text" placeholder="Su email" />
-                                        </div>
+            </header>
+            <div class="wraper cambioColor">
+                <section class="content separar">
+                    <div class="container">
+                        <div class="row ">
+                            <div class="col-9">
+                                <div class="card card-primary card-outline">
+                                    <div class="card-header">
+                                        <form action="mailto:sergioperezalamillo@gmail.com" method="post" name="form1" enctype="text/plain">
+                                            <div class="card-body">
+                                                <div class="form-group">
+                                                    <label for="nombre">Nombre: </label>
+                                                    <input class="form-control" id="nombre" name="nombre" type="text" placeholder="Nombre" />
+                                                </div>
 
-                                        <div class="form-group">
+                                                <div class="form-group">
 
-                                            <textarea id="compose-textarea" class="form-control textareaColor" id="compose-textarea" class="form-control" name="opinion"></textarea>
-                                            <div class="card-footer">
-                                                <div class="float-right">
-                                                    <button type="button" class="btn btn-default"><i class="fas fa-pencil-alt"></i> Descartar</button>
-                                                    <button type="submit" class="btn btn-primary"><i class="far fa-envelope"></i> Enviar</button>
+                                                    <label for="email">Email: </label>
+                                                    <input class="form-control" id="email" name="email" type="text" placeholder="Su email" />
+                                                </div>
+
+                                                <div class="form-group">
+
+                                                    <textarea id="compose-textarea" class="form-control textareaColor" id="compose-textarea" class="form-control" name="opinion"></textarea>
+                                                    <div class="card-footer">
+                                                        <div class="float-right">
+                                                            <button type="button" class="btn btn-default"><i class="fas fa-pencil-alt"></i> Descartar</button>
+                                                            <button type="submit" class="btn btn-primary"><i class="far fa-envelope"></i> Enviar</button>
+                                                        </div>
+                                                    </div>
+
                                                 </div>
                                             </div>
 
-                                        </div>
+                                        </form>
                                     </div>
+                                </div>
 
-                                </form>
                             </div>
                         </div>
-
                     </div>
-                </div>
+
+                </section>
             </div>
 
-        </section>
+
+            <footer class="footer copyright ">
+                <p style="    font-family: 'Bangers', cursive; ">
+                    <a href="https://www.linkedin.com/in/sergio-perez-alamillo "><span><img src="//images.ctfassets.net/uvjww2wslrux/17UAduUK9kOQec2i0QWsug/f98e04870e6795409840b3e00a98306b/ALN-Pie-p__gina-LinkedIn.png?fm=png&q=80&w=500 " alt="Linkedin "></a></span>
+                    Portfolio de Sergio Pérez Alamillo &copy;.
+                </p>
+            </footer>
+
+
+            <!-- Control Sidebar -->
+            <aside class="control-sidebar control-sidebar-dark ">
+                <!-- Control sidebar content goes here -->
+            </aside>
+            <!-- /.control-sidebar -->
+        </div>
+        <!-- ./wrapper -->
+
+        <!-- jQuery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js " integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin=" anonymous "></script>
+        <!-- Bootstrap 4 -->
+        <script src="js/bootstrap.bundle.min.js "></script>
+        <!-- AdminLTE App -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/3.0.5/js/adminlte.min.js " integrity="sha512-++c7zGcm18AhH83pOIETVReg0dr1Yn8XTRw+0bWSIWAVCAwz1s2PwnSj4z/OOyKlwSXc4RLg3nnjR22q0dhEyA==" crossorigin=" anonymous "></script>
+        <!-- AdminLTE for demo purposes -->
+        <script src="/js/contacto.js "></script>
+        <!-- Summernote -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.18/summernote-bs4.min.js " integrity="sha512-+cXPhsJzyjNGFm5zE+KPEX4Vr/1AbqCUuzAS8Cy5AfLEWm9+UI9OySleqLiSQOQ5Oa2UrzaeAOijhvV/M4apyQ==" crossorigin=" anonymous "></script>
+        <!-- Page Script -->
+        <script>
+            $(function() {
+                //Add text editor
+                $('#compose-textarea').summernote("foreColor", 'black')
+            })
+        </script>
     </div>
-
-
-    <footer class="footer copyright ">
-        <p style="    font-family: 'Bangers', cursive; ">
-            <a href="https://www.linkedin.com/in/sergio-perez-alamillo "><span><img src="//images.ctfassets.net/uvjww2wslrux/17UAduUK9kOQec2i0QWsug/f98e04870e6795409840b3e00a98306b/ALN-Pie-p__gina-LinkedIn.png?fm=png&q=80&w=500 " alt="Linkedin "></a></span>
-            Portfolio de Sergio Pérez Alamillo &copy;.
-        </p>
-    </footer>
-
-
-    <!-- Control Sidebar -->
-    <aside class="control-sidebar control-sidebar-dark ">
-        <!-- Control sidebar content goes here -->
-    </aside>
-    <!-- /.control-sidebar -->
     </div>
-    <!-- ./wrapper -->
-
-    <!-- jQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js " integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin=" anonymous "></script>
-    <!-- Bootstrap 4 -->
-    <script src="js/bootstrap.bundle.min.js "></script>
-    <!-- AdminLTE App -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/3.0.5/js/adminlte.min.js " integrity="sha512-++c7zGcm18AhH83pOIETVReg0dr1Yn8XTRw+0bWSIWAVCAwz1s2PwnSj4z/OOyKlwSXc4RLg3nnjR22q0dhEyA==" crossorigin=" anonymous "></script>
-    <!-- AdminLTE for demo purposes -->
-    <script src="/js/contacto.js "></script>
-    <!-- Summernote -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.18/summernote-bs4.min.js " integrity="sha512-+cXPhsJzyjNGFm5zE+KPEX4Vr/1AbqCUuzAS8Cy5AfLEWm9+UI9OySleqLiSQOQ5Oa2UrzaeAOijhvV/M4apyQ==" crossorigin=" anonymous "></script>
-    <!-- Page Script -->
-    <script>
-        $(function() {
-            //Add text editor
-            $('#compose-textarea').summernote("foreColor", 'black')
-        })
-    </script>
 </body>
 
 </html>

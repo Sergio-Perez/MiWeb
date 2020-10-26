@@ -26,7 +26,6 @@ html {
 body {
     font-size: 1.6rem;
     line-height: 2;
-    background-color: var(--colorFondo);
 }
 
 
@@ -55,6 +54,10 @@ p {
 
 
 /** Header **/
+
+.dentro {
+    position: relative;
+}
 
 .barra {
     margin-bottom: -10px;
