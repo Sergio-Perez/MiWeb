@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Italianno&family=Jost:wght@100&family=Krub:wght@400;700&family=Lato:ital,wght@0,300;0,700;0,900;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
     <style>
         body {
             background-image: url("img/estrellas.gif");
@@ -50,51 +51,65 @@
                 <a href="/proyectos.html">
                     <h2>Proyectos</h2>
                 </a>
+                <a href="#" class="iconostaggle " id="btn-toggle"> <i class="fas fa-project-diagram "></i></a>
+
                 <div class="flex contenedor-estudios">
 
 
 
+
                     <img class="certificado" src="../img/certificado.png" alt="Imagen Data Certified">
+
+
                     <div class="proyectos ">
+                        <div class="seccionToggle">
+                            <nav id="ocultar" class="ocultar">
 
-                        <ul>
+                                <ul>
+                                    <li>
+                                        <a href=" http://www.github.com/Sergio-Perez/RFC ">
+                                            <p>Machine Learning</p>
+                                        </a>
+                                    </li>
 
-                            <li>
-                                <a href=" http://www.github.com/Sergio-Perez/RFC ">
-                                    <p>Machine Learning</p>
-                                </a>
-                            </li>
+                                    <li>
+                                        <a href="http://www.github.com/Sergio-Perez/data-analysis-pipeline ">
+                                            <p>Pipeline</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.github.com/Sergio-Perez/ProyectoMongo ">
+                                            <p>MongoDb</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.github.com/Sergio-Perez/PoyectApi ">
+                                            <p>Proyect Api</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/Sergio-Perez/LibroDjango ">
+                                            <p>Libro Django</P>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.github.com/Sergio-Perez/HTML5-CSS3 ">
+                                            <p>Web</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
 
-                            <li>
-                                <a href="http://www.github.com/Sergio-Perez/data-analysis-pipeline ">
-                                    <p>Pipeline</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://www.github.com/Sergio-Perez/ProyectoMongo ">
-                                    <p>MongoDb</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://www.github.com/Sergio-Perez/PoyectApi ">
-                                    <p>Proyect Api</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/Sergio-Perez/LibroDjango ">
-                                    <p>Libro Django</P>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://www.github.com/Sergio-Perez/HTML5-CSS3 ">
-                                    <p>Web</p>
-                                </a>
-                            </li>
-                        </ul>
+
                     </div>
                 </div>
-                <h3 class="">Actualmente colaborando en un proyecto con Bla company, como Data Scientist. </h3>
+            </div>
+
+
         </section>
+        <h3 class="">Actualmente colaborando en un proyecto con Bla company, como Data Scientist. </h3>
+
         <section>
             <h2> Mi aprendizaje</h2>
             <div class="contenedor-estudios ">
@@ -127,10 +142,11 @@
             <a href="https://www.linkedin.com/in/sergio-perez-alamillo "><img src="//images.ctfassets.net/uvjww2wslrux/17UAduUK9kOQec2i0QWsug/f98e04870e6795409840b3e00a98306b/ALN-Pie-p__gina-LinkedIn.png?fm=png&q=80&w=500 " alt="Linkedin "></a>
             <span>Portfolio de Sergio Pérez Alamillo &copy;.</span>
         </p>
+       
     </footer>
 
 
-
+    <script src="js/taggle.js "></script>
 </body>
 
 </html>

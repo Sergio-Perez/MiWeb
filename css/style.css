@@ -128,7 +128,15 @@ div.barra nav {
     cursor: pointer;
 }
 
-@media (min-width: 520px) {
+.ocultarAlreves {
+    display: none;
+}
+
+.iconostaggle {
+    display: none;
+}
+
+@media (max-width: 520px) {
     .centrar {
         display: flex;
         justify-content: space-between;
@@ -136,7 +144,21 @@ div.barra nav {
     .bajar-texto {
         font-size: 1.7rem;
     }
+    .iconos span {
+        display: none;
+    }
+    .ocultar {
+        display: none;
+    }
+    .iconostaggle {
+        color: var(--colorIcons);
+        display: block;
+        text-align: center;
+        margin: 20px 0;
+    }
 }
+
+@media (min-width:768) {}
 
 .colorBlanco a {
     color: var(--colorBlanco);
@@ -274,9 +296,11 @@ video:hover {
     margin: 0 auto;
 }
 
-.color-iconos span {
-    padding: 2px;
-    color: var(--colorIcons);
+@media (min-width: 768) {
+    .color-iconos span {
+        color: red;
+        font-size: 30px;
+    }
 }
 
 .cabecero {
